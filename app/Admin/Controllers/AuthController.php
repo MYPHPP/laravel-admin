@@ -11,7 +11,7 @@ class AuthController extends BaseAuthController
         config([
             'admin.name' => trans('admin.website_login_name'),
             'admin.logo' => trans('admin.website_left_tip'),
-            'admin.logo-mini' => trans('admin.website_left_tip_mimi'),
+            'admin.logo-mini' => trans('admin.website_left_tip_mimi')
         ]);
     }
 }
